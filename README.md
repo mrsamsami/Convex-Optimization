@@ -5,7 +5,7 @@ This repository provides implemented algorithms for several convex optimization 
 
 ## List of Notebooks:
 
-### Constrained Quadratic Optimization with Second Order Methods
+#### Constrained Quadratic Optimization with Second Order Methods
 this is <img src="https://latex.codecogs.com/svg.latex?\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x" title="\frac{1}{2}x^\top A x - b^\top x" /> good.
 
 ## Environment Requirement
