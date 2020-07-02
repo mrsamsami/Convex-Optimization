@@ -5,6 +5,8 @@ This repository provides implemented algorithms for several convex optimization 
 
 ## List of Notebooks:
 
+https://latex.codecogs.com/svg.latex?\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x
+
 ## Environment Requirement
 * Python 3.6.5
 
