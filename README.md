@@ -4,6 +4,8 @@ This repository provides implemented algorithms for several convex optimization 
 **Note**: These are implemented algorithms and study for selected homeworks of [convex optimization course](https://inl-lab.net/convex-optimization) taught by Prof. Jafari Siavoshani in Spring 2020.
 
 ## List of Notebooks:
+
+### Constrained Quadratic Optimization with Second Order Methods
 this is <img src="https://latex.codecogs.com/svg.latex?\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x" title="\frac{1}{2}x^\top A x - b^\top x" /> good.
 
 ## Environment Requirement
