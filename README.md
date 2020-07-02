@@ -5,8 +5,10 @@ This repository provides implemented algorithms for several convex optimization 
 
 ## List of Notebooks:
 
-#### Constrained Quadratic Optimization with Second Order Methods
-this is <img src="https://latex.codecogs.com/svg.latex?\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x" title="\frac{1}{2}x^\top A x - b^\top x" /> good.
+#### Inequality-Constrained Quadratic Optimization with Second Order Methods
+Consider quadratic problem with inequality Constraints:
+<img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\min_{x}&space;\quad&space;&&space;\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x\\&space;\textrm{s.t.}&space;\quad&space;&&space;Px&space;\preccurlyeq&space;q\\&space;\end{aligned}" title="\begin{aligned} \min_{x} \quad & \frac{1}{2}x^\top A x - b^\top x\\ \textrm{s.t.} \quad & Px \preccurlyeq q\\ \end{aligned}" />
+
 
 ## Environment Requirement
 * Python 3.6.5
