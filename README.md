@@ -7,6 +7,7 @@ This repository provides implemented algorithms for several convex optimization 
 
 #### Inequality-Constrained Quadratic Optimization with Second Order Methods
 Consider quadratic problem with inequality Constraints:
+
 <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\min_{x}&space;\quad&space;&&space;\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x\\&space;\textrm{s.t.}&space;\quad&space;&&space;Px&space;\preccurlyeq&space;q\\&space;\end{aligned}" title="\begin{aligned} \min_{x} \quad & \frac{1}{2}x^\top A x - b^\top x\\ \textrm{s.t.} \quad & Px \preccurlyeq q\\ \end{aligned}" />
 
 
