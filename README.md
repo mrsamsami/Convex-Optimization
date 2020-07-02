@@ -14,6 +14,8 @@ where P and q are random matrix and vector respectively. We can write the barrie
 <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\min_{x}&space;\quad&space;&&space;t&space;(\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x)&space;\&space;-&space;\&space;\sum_{i=1}^{n}&space;\log&space;(q_i&space;-&space;P_{i,*}x)\\&space;\end{aligned}" title="\begin{aligned} \min_{x} \quad & t (\frac{1}{2}x^\top A x - b^\top x) \ - \ \sum_{i=1}^{n} \log (q_i - P_{i,*}x)\\ \end{aligned}" /></p>
 
+The barrier method solves a sequence of above problems for increasing positive t, until the duality gap gets very small. You can find the implementation and various experiments in [the barrier method notebook](Barrier%20Method.ipynb).
+
 ## Environment Requirement
 * Python 3.6.5
 
