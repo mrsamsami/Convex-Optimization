@@ -31,11 +31,12 @@ The update step in proximal gradient descent is
 
 Now consider the binary classification problem with smoothing penalty:
 <p align = "center">
-   <img src="https://latex.codecogs.com/svg.latex?w^*&space;=&space;\underset{w}{\arg\min}\&space;g(w)&space;&plus;&space;\lambda&space;h(w)&space;=&space;\sum_{i=1}^{n}&space;\log&space;\frac{1&plus;e^{X_{i,*}&space;w}}{e^{y_i&space;X_{i}&space;w}}&space;&plus;&space;\lambda&space;||w||_{2,c}," title="w^* = \underset{w}{\arg\min}\ g(w) + \lambda h(w) = \sum_{i=1}^{n} \log \frac{1+e^{X_{i} w}}{e^{y_i X_{i,*} w}} + \lambda ||w||_{2,c}," /></p>
+   <img src="https://latex.codecogs.com/svg.latex?w^*&space;=&space;\underset{w}{\arg\min}\&space;g(w)&space;&plus;&space;\lambda&space;h(w)&space;=&space;\sum_{i=1}^{n}&space;\log&space;\frac{1&plus;e^{X_{i}&space;w}}{e^{y_i&space;X_{i}&space;w}}&space;&plus;&space;\lambda&space;||w||_{2,c}," title="w^* = \underset{w}{\arg\min}\ g(w) + \lambda h(w) = \sum_{i=1}^{n} \log \frac{1+e^{X_{i} w}}{e^{y_i X_{i} w}} + \lambda ||w||_{2,c}," /></p>
 where w is a weight vector as follows:
 
+
 <p align = "center">
-   <img src="https://latex.codecogs.com/svg.latex?\\&space;w&space;=&space;(w_{(1)},&space;w_{(2)},&space;...,&space;w_{(K)})&space;\in&space;\mathbb{R}^{c_1}&space;\times&space;\mathbb{R}^{c_2}&space;\times&space;...&space;\times&space;\mathbb{R}^{c_K}&space;=&space;\mathbb{R}^{m}" title="w = (w_{(1)}, w_{(2)}, ..., w_{(K)}) \in \mathbb{R}^{c_1} \times \mathbb{R}^{c_2} \times ... \times \mathbb{R}^{c_K} = \mathbb{R}^{m}" /></p>
+   <img src="https://latex.codecogs.com/svg.latex?w&space;=&space;(w_{(1)},&space;w_{(2)},&space;...,&space;w_{(K)})&space;\in&space;\mathbb{R}^{c_1}&space;\times&space;\mathbb{R}^{c_2}&space;\times&space;...&space;\times&space;\mathbb{R}^{c_K}&space;=&space;\mathbb{R}^{m}" title="w = (w_{(1)}, w_{(2)}, ..., w_{(K)}) \in \mathbb{R}^{c_1} \times \mathbb{R}^{c_2} \times ... \times \mathbb{R}^{c_K} = \mathbb{R}^{m}" /></p>
    
 You can examine the codes and analyses of this optimization problem in [this notebook](Proximal%20Gradient%20Descent.ipynb).
 
