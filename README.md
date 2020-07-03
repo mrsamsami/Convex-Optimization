@@ -18,6 +18,16 @@ The barrier method solves a sequence of above problems for increasing positive t
 
 Moreover, I provide the implementation of the [primal-dual interior-point method](Primal-Dual%20Interior-Point.ipynb). Like the barrier method, primal-dual interior-point techniques aim to compute approximately points on the central path, and its iterations are not necessarily feasible, but they are often more efficient. The Primal-dual interior-point method directly applies Newton root-finding update for solving the perturbed KKT conditions.
 
+#### Ridge Classification With Proximal Gradient Descent
+
+Proximal gradient descent is a generalized form of projection methods used to solve non-differentiable convex optimization problems. In this method, we split non-differentiable convex functions to a single smooth function with a Lipschitz-continuous gradient and a single non-smooth penalty function. Therefore, we write the problem as follows:
+<p align = "center">
+<img src="https://latex.codecogs.com/svg.latex?\min_{x}&space;f(x)&space;=\&space;\min_{x}&space;\underbrace{g(x)}_{smooth}&space;&plus;&space;\underbrace{h(x)}_{non-smooth}" title="\min_{x} f(x) =\ \min_{x} \underbrace{g(x)}_{smooth} + \underbrace{h(x)}_{non-smooth}" />
+</p>
+The update step in proximal gradient descent is
+<p align = "center">
+   <img src="https://latex.codecogs.com/svg.latex?x^&plus;&space;=&space;\underset{z}{\arg\min}\&space;\frac{1}{2t}&space;||z&space;-&space;(x&space;-&space;t\nabla&space;g(x))||_2^2&space;&plus;&space;h(z)" title="x^+ = \underset{z}{\arg\min}\ \frac{1}{2t} ||z - (x - t\nabla g(x))||_2^2 + h(z)" /></p>
+
 ## Environment Requirement
 * Python 3.6.5
 
