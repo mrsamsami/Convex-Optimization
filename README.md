@@ -16,7 +16,7 @@ where P and q are random matrix and vector respectively. We can write the barrie
 
 The barrier method solves a sequence of above problems for increasing positive t, until the duality gap gets very small. You can find the implementation and various experiments in [the barrier method notebook](Barrier%20Method.ipynb).
 
-Moreover, I provide the implementation of the [primal-dual interior-point method](Primal-Dual%20Interior-Point.ipynb). Like the barrier method, primal-dual interior-point techniques aim to compute approximately points on the central path, and its iterations are not necessarily feasible, but they are often more efficient. The Primal-dual interior-point method directly applies Newton root-finding update for solving the perturbed KKT conditions.
+Moreover, I provide the implementation of the [primal-dual interior-point method](Primal-Dual%20Interior-Point.ipynb). Like the barrier method, primal-dual interior-point technique aims to compute approximately points on the central path, and its iterations are not necessarily feasible, but they are often more efficient. The Primal-dual interior-point method directly applies Newton root-finding update for solving the perturbed KKT conditions.
 
 #### Ridge Classification With Proximal Gradient Descent
 
