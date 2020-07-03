@@ -20,7 +20,7 @@ Moreover, I provide the implementation of the [primal-dual interior-point method
 
 #### Ridge Classification With Proximal Gradient Descent
 
-Proximal gradient descent is a generalized form of projection methods used to solve non-differentiable convex optimization problems. In this method, we split non-differentiable convex functions to a single smooth function with a Lipschitz-continuous gradient and a single non-smooth penalty function. Therefore, we write the problem as follows:
+Proximal gradient descent is a generalized form of projection methods used to solve non-differentiable convex optimization problems. In this method, we decompose the objective function to a single smooth function with a Lipschitz-continuous gradient and a single non-smooth penalty function. Therefore, we write the problem as follows:
 <p align = "center">
 <img src="https://latex.codecogs.com/svg.latex?\min_{x}&space;f(x)&space;=\&space;\min_{x}&space;\underbrace{g(x)}_{smooth}&space;&plus;&space;\underbrace{h(x)}_{non-smooth}" title="\min_{x} f(x) =\ \min_{x} \underbrace{g(x)}_{smooth} + \underbrace{h(x)}_{non-smooth}" />
 </p>
