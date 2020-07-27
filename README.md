@@ -1,5 +1,5 @@
 # Convex Optimization
-This repository provides implemented algorithms for several convex optimization problems. All code is written in Python 3, using NumPy and CVXPY. Jupyter notebooks are provided to show analyses.
+This repository provides implemented algorithms for several convex optimization problems. All code is written in Python 3, using TensorFlow, NumPy and CVXPY. Jupyter notebooks are provided to show analyses.
 
 **Note**: These are implemented algorithms and study for selected homeworks of [convex optimization course](https://inl-lab.net/convex-optimization) taught by Prof. Jafari Siavoshani in Spring 2020.
 
@@ -39,7 +39,7 @@ You can examine the codes and analyses of this optimization problem in [this not
 
 ## Environment Requirement
 * Python 3.6.5
-
+    * TensorFlow 2.2.0
     * NumPy 1.14.3
     * CVXPY 1.1.0
     
@@ -50,3 +50,7 @@ You can examine the codes and analyses of this optimization problem in [this not
 
 **Textbook**:
 - [Convex Optimization (2004)](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+
+**Papers**:
+- [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction (2013)](https://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf)
+- [Revisiting Natural Gradient for Deep Networks](https://arxiv.org/pdf/1301.3584.pdf)
