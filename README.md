@@ -53,4 +53,4 @@ You can examine the codes and analyses of this optimization problem in [this not
 
 **Papers**:
 - [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction (2013)](https://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf)
-- [Revisiting Natural Gradient for Deep Networks](https://arxiv.org/pdf/1301.3584.pdf)
+- [Revisiting Natural Gradient for Deep Networks (2014)](https://arxiv.org/pdf/1301.3584.pdf)
