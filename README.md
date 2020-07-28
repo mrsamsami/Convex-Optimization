@@ -1,7 +1,7 @@
 # Convex Optimization
 This repository provides implemented algorithms for several convex optimization problems. All code is written in Python 3, using TensorFlow, NumPy and CVXPY. Jupyter notebooks are provided to show analyses.
 
-**Note**: These are implemented algorithms and study for selected homeworks of [convex optimization course](https://inl-lab.net/convex-optimization) taught by Prof. Jafari Siavoshani in Spring 2020.
+**Note**: These are implemented algorithms and study for selected assignments and the project of [convex optimization course](https://inl-lab.net/convex-optimization) taught by Prof. Jafari Siavoshani in Spring 2020.
 
 ## Table of Contents:
 
