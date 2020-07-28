@@ -15,7 +15,7 @@ In the preceding section, I addressed one of the pitfalls of SGD. However, there
 
 In [this study](First-Order%20and%20Second-Order%20Methods.ipynb), I try to analyze some first-order and second-order methods and compare them in a simple binary classification problem: Gradient descent, Newton method, and natural gradient descent.
 
-#### Inequality-Constrained Quadratic Optimization with Second Order Methods
+#### Inequality-Constrained Quadratic Optimization with Second-Order Methods
 Consider quadratic problem with inequality constraints:
 <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\min_{x}&space;\quad&space;&&space;\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x\\&space;\textrm{s.t.}&space;\quad&space;&&space;Px&space;\preccurlyeq&space;q,\\&space;\end{aligned}" title="\begin{aligned} \min_{x} \quad & \frac{1}{2}x^\top A x - b^\top x\\ \textrm{s.t.} \quad & Px \preccurlyeq q,\\ \end{aligned}" /></p>
