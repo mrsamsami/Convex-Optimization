@@ -44,7 +44,6 @@ You can examine the codes and analyses of this optimization problem in [this not
     * CVXPY 1.1.0
     
 ## Resources
-
 **Class**:
 - [Convex Optimization (Sharif, Spring 2020)](https://inl-lab.net/convex-optimization)
 
