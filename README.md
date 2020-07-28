@@ -6,7 +6,7 @@ This repository provides implemented algorithms for several convex optimization 
 ## Table of Contents:
 
 #### Variance Reduction in Stochastic Gradient Descent
-Gradient descent and stochastic gradient descent (SGD) are efficient methods playing an essential role in optimization. Especially in large scale optimization problems (e.g., deep learning), SGD and its variants are very popular. However, SGD has slow convergence asymptotically due to its high variance. Thus, researchers have introduced some techniques to reduce the variance to accelerate the convergence.
+Gradient descent and stochastic gradient descent (SGD) are efficient methods that play an essential role in optimization. Especially in large scale optimization problems (e.g., deep learning), SGD and its variants are very popular. However, SGD has slow convergence asymptotically due to its high variance. Thus, researchers have introduced some techniques to reduce the variance to accelerate the convergence.
 One of the proposed algorithms is stochastic variance reduced gradient (SVRG). I have implemented a simple architecture for classification problem in the MNIST dataset and trained it with SGD, mini-batch gradient descent, and SVRG. I wish to intuitively analyze how SVRG works when applied to SGD in [this notebook](Variance%20Reduction%20in%20Stochastic%20Gradient%20Descent.ipynb).
 
 #### Inequality-Constrained Quadratic Optimization with Second Order Methods
