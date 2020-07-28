@@ -7,10 +7,12 @@ This repository provides implemented algorithms for several convex optimization 
 
 #### Variance Reduction in Stochastic Gradient Descent
 Gradient descent and stochastic gradient descent (SGD) are efficient methods that play an essential role in optimization. Especially in large scale optimization problems (e.g., deep learning), SGD and its variants are very popular. However, SGD has slow convergence asymptotically due to its high variance. Thus, researchers have introduced some techniques to reduce the variance to accelerate the convergence.
+
 One of the proposed algorithms is stochastic variance reduced gradient (SVRG). I have implemented a simple architecture for classification problem in the MNIST dataset and trained it with SGD, mini-batch gradient descent, and SVRG. I wish to intuitively analyze how SVRG works when applied to SGD in [this notebook](Variance%20Reduction%20in%20Stochastic%20Gradient%20Descent.ipynb).
 
 #### An Analysis of First-Order and Second-Order Methods
 In the preceding section, I addressed one of the pitfalls of SGD. However, there is a drawback in gradient descent itself (and all first-order methods); the gradient gives no information about the loss function's curvature. Second-order techniques exploit the knowledge about the curvature for better updates. 
+
 In [this study](First-Order%20and%20Second-Order%20Methods.ipynb), I try to analyze some first-order and second-order methods and compare them in a simple binary classification problem: Gradient descent, Newton method, and natural gradient descent.
 
 #### Inequality-Constrained Quadratic Optimization with Second Order Methods
