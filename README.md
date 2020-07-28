@@ -12,7 +12,7 @@ Consider quadratic problem with inequality constraints:
 
 where P and q are random matrix and vector respectively. We can write the barrier problem as
 <p align="center">
-<img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;\min_{x}&space;\quad&space;&&space;t&space;(\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x)&space;\&space;-&space;\&space;\sum_{i=1}^{n}&space;\log&space;(q_i&space;-&space;P_{i}x)\\&space;\end{aligned}" title="\begin{aligned} \min_{x} \quad & t (\frac{1}{2}x^\top A x - b^\top x) \ - \ \sum_{i=1}^{n} \log (q_i - P_{i}x)\\ \end{aligned}" /></p>
+<img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\min_{x}&space;\quad&space;&&space;t&space;(\frac{1}{2}x^\top&space;A&space;x&space;-&space;b^\top&space;x)&space;\&space;-&space;\&space;\sum_{i=1}^{n}&space;\log&space;(q_i&space;-&space;P_{i}x)\\&space;\end{aligned}" title="\begin{aligned} \min_{x} \quad & t (\frac{1}{2}x^\top A x - b^\top x) \ - \ \sum_{i=1}^{n} \log (q_i - P_{i}x)\\ \end{aligned}" /></p>
 
 The barrier method solves a sequence of above problems for increasing positive t, until the duality gap gets very small. You can find the implementation and various experiments in [the barrier method notebook](Barrier%20Method.ipynb).
 
@@ -31,9 +31,9 @@ The update step in proximal gradient descent is
 
 Now consider the binary classification problem with smoothing penalty:
 <p align = "center">
-   <img src="https://latex.codecogs.com/gif.latex?w^*&space;=&space;\underset{w}{\arg\min}\&space;g(w)&space;&plus;&space;\lambda&space;h(w)&space;=&space;\sum_{i=1}^{n}&space;\log&space;\frac{1&plus;e^{X_{i}&space;w}}{e^{y_i&space;X_{i}&space;w}}&space;&plus;&space;\lambda&space;||w||_{2,c}," title="w^* = \underset{w}{\arg\min}\ g(w) + \lambda h(w) = \sum_{i=1}^{n} \log \frac{1+e^{X_{i} w}}{e^{y_i X_{i} w}} + \lambda ||w||_{2,c}," /></p>
+   <img src="https://latex.codecogs.com/svg.latex?w^*&space;=&space;\underset{w}{\arg\min}\&space;g(w)&space;&plus;&space;\lambda&space;h(w)&space;=&space;\sum_{i=1}^{n}&space;\log&space;\frac{1&plus;e^{X_{i}&space;w}}{e^{y_i&space;X_{i}&space;w}}&space;&plus;&space;\lambda&space;||w||_{2,c}," title="w^* = \underset{w}{\arg\min}\ g(w) + \lambda h(w) = \sum_{i=1}^{n} \log \frac{1+e^{X_{i} w}}{e^{y_i X_{i} w}} + \lambda ||w||_{2,c}," /></p>
 <p align = "center">
-   <img src="https://latex.codecogs.com/gif.latex?w&space;=&space;(w_{(1)},&space;w_{(2)},&space;...,&space;w_{(K)})&space;\in&space;\mathbb{R}^{c_1}&space;\times&space;\mathbb{R}^{c_2}&space;\times&space;...&space;\times&space;\mathbb{R}^{c_K}&space;=&space;\mathbb{R}^{m}" title="w = (w_{(1)}, w_{(2)}, ..., w_{(K)}) \in \mathbb{R}^{c_1} \times \mathbb{R}^{c_2} \times ... \times \mathbb{R}^{c_K} = \mathbb{R}^{m}" /></p>
+   <img src="https://latex.codecogs.com/svg.latex?w&space;=&space;(w_{(1)},&space;w_{(2)},&space;...,&space;w_{(K)})&space;\in&space;\mathbb{R}^{c_1}&space;\times&space;\mathbb{R}^{c_2}&space;\times&space;...&space;\times&space;\mathbb{R}^{c_K}&space;=&space;\mathbb{R}^{m}" title="w = (w_{(1)}, w_{(2)}, ..., w_{(K)}) \in \mathbb{R}^{c_1} \times \mathbb{R}^{c_2} \times ... \times \mathbb{R}^{c_K} = \mathbb{R}^{m}" /></p>
    
 You can examine the codes and analyses of this optimization problem in [this notebook](Proximal%20Gradient%20Descent.ipynb).
 
