@@ -3,7 +3,7 @@ This repository provides implemented algorithms for several convex optimization 
 
 **Note**: These are implemented algorithms and study for selected assignments and the project of [convex optimization course](https://inl-lab.net/convex-optimization) taught by Prof. Jafari Siavoshani in Spring 2020.
 
-## Table of Contents:
+## Table of Contents
 
 #### Variance Reduction in Stochastic Gradient Descent
 Gradient descent and stochastic gradient descent (SGD) are efficient methods that play an essential role in optimization. Especially in large scale optimization problems (e.g., deep learning), SGD and its variants are very popular. However, SGD has slow convergence asymptotically due to its high variance. Thus, researchers have introduced some techniques to reduce the variance to accelerate the convergence.
